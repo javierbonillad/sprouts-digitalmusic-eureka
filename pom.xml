@@ -3,11 +3,6 @@
   <groupId>org.sprouts.digitalmusic.eureka</groupId>
   <artifactId>sprouts-digitalmusic-eureka</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <parent>
-  	<groupId>org.sprouts.digitalmusic</groupId>
-  	<artifactId>sprouts-digitalmusic</artifactId>
-  	<version>0.1</version>
-  </parent>
   <repositories>
 		<repository>
 			<id>nexus</id>
@@ -20,7 +15,6 @@
 			</snapshots>
 		</repository>
 	</repositories>
-
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
@@ -33,4 +27,9 @@
 			<url>http://nexus.sprouts-project.com:8081/repository/maven-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
+	<parent>
+		<groupId>org.sprouts.digitalmusic</groupId>
+		<artifactId>sprouts-digitalmusic</artifactId>
+		<version>0.1</version>
+	</parent>
 </project>
