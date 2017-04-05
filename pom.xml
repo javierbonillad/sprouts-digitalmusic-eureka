@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sprouts.digitalmusic.eureka</groupId>
   <artifactId>sprouts-digitalmusic-eureka</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
 
   <repositories>
 		<repository>
@@ -16,7 +16,6 @@
 			</snapshots>
 		</repository>
 	</repositories>
-
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
