@@ -1,12 +1,11 @@
-# Configure this Discovery Server
 eureka:
   instance:
     hostname: eureka-
   client:  # Not a client, don't register with yourself
     registerWithEureka: false
     fetchRegistry: false
-    server:
-        waitTimeInMsWhenSyncEmpty: 0
+  server:
+    enable-self-preservation: false
 
 server:
   port: 8761   # HTTP (Tomcat) port
